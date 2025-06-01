@@ -1,125 +1,132 @@
-# 🔒 **Sistema de Criptografia/Descriptografia de Textos** 🔓
+# 🔒 **Text Encryption/Decryption System** 🔓
 
-Um programa interativo para criptografar e descriptografar mensagens utilizando múltiplos níveis de segurança. Baseado em substituições aleatórias de caracteres, é uma demonstração prática de criptografia simples.
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-Este projeto implementa um sistema interativo para criptografar e descriptografar mensagens usando uma substituição de caracteres aleatórios. Ele possui múltiplos níveis de dificuldade:
-
-1. **Nível 1 (Amador)**: Substituições básicas de caracteres.
-2. **Nível 2 (Médio)**: Substituições mais complexas com caracteres variados.
-3. **Nível 3 (Militar)**: Maior complexidade, simulando padrões de criptografia avançados.
-
-O código inclui uma interface interativa para permitir ao usuário escolher entre criptografar ou descriptografar mensagens e especificar o nível de segurança desejado.
+An interactive program to encrypt and decrypt messages using multiple security levels. Based on random character substitutions, it serves as a practical demonstration of simple encryption techniques.
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-### Funcionalidades:
-- **Criptografia com múltiplos níveis de dificuldade.**  
-  Níveis de segurança com padrões próprios de substituição.
-- **Descriptografia correspondente para cada nível.**  
-  Possibilidade de descriptografar mensagens de acordo com o nível selecionado.
-- **Interface Interativa com Menu Simples.**  
-  Um menu claro para navegação:
+This project implements an interactive system for encrypting and decrypting messages using random character substitutions. It features multiple difficulty levels:
+
+1. **Level 1 (Amateur)**: Basic character substitutions.
+2. **Level 2 (Intermediate)**: More complex substitutions with varied characters.
+3. **Level 3 (Military)**: Highest complexity, simulating advanced encryption patterns.
+
+The code includes an interactive interface allowing users to choose between encrypting or decrypting messages and to specify the desired security level.
+
+---
+
+## 🛠️ **Key Features**
+
+### Functionalities:
+
+* **Encryption with multiple difficulty levels.**
+  Security levels with their own substitution patterns.
+* **Corresponding decryption for each level.**
+  Ability to decrypt messages according to the selected level.
+* **Interactive Interface with Simple Menu.**
+  A clear navigation menu:
+
   ```
-  * Menu de Opção *
-  1- Criptografar
-  2- Descriptografar
-  3- Sair
+  * Option Menu *
+  1- Encrypt
+  2- Decrypt
+  3- Exit
   ```
-- **Base Aleatória para Segurança**: Uso de padrões aleatórios para dificultar a quebra de criptografia.
+* **Randomized Base for Security**: Use of random patterns to make breaking the encryption more difficult.
 
 ---
 
-## ⚙️ **Configuração**
+## ⚙️ **Setup**
 
-### Pré-requisitos
-- Python 3.x deve estar instalado no sistema.
+### Prerequisites
+
+* Python 3.x must be installed on your system.
 
 ---
 
-## ▶️ **Como Executar**
+## ▶️ **How to Run**
 
-1. Clone o repositório no seu ambiente local:
+1. Clone the repository to your local environment:
+
 ```bash
-git clone https://github.com/seu-usuario/sistema-criptografia.git
+git clone https://github.com/jp9141joao/text-criptograder.git
 ```
 
-2. Instale qualquer dependência necessária (caso necessário, mas o código não depende de pacotes externos).
+2. Install any necessary dependencies (none required; the code does not rely on external packages).
 
-3. Execute o programa com:
+3. Run the program with:
+
 ```bash
-python seu_arquivo.py
+python your_file.py
 ```
 
 ---
 
-## 🎮 **Como Funciona**
+## 🎮 **How It Works**
 
-O fluxo básico é o seguinte:
+The basic flow is as follows:
 
-1. Ao iniciar o programa, o usuário verá um menu com as opções:  
+1. Upon starting the program, the user will see a menu with options:
+
    ```
-   * Menu de Opção *
-   1- Criptografar
-   2- Descriptografar
-   3- Sair
+   * Option Menu *
+   1- Encrypt
+   2- Decrypt
+   3- Exit
    ```
 
-2. **Escolha de Operação:**  
-   O usuário pode optar por criptografar ou descriptografar mensagens.
+2. **Choose an Operation:**
+   The user can choose to encrypt or decrypt messages.
 
-3. **Seleção do nível de dificuldade:**  
-   O programa oferece níveis como:
-   - **Nível 1**: Substituições simples e padrões básicos.
-   - **Nível 2**: Substituições com base em variabilidade de caracteres.
-   - **Nível 3**: Maior nível de aleatoriedade e complexidade.
+3. **Select the difficulty level:**
+   The program offers levels such as:
 
-4. O usuário digita a mensagem, e o programa realiza a operação com base no nível escolhido.
+   * **Level 1**: Simple substitutions and basic patterns.
+   * **Level 2**: Substitutions based on character variability.
+   * **Level 3**: Highest level of randomness and complexity.
 
----
-
-## 💬 **Tecnologias Utilizadas**
-
-- **Python 3.x**: Lógica principal e tratamento de strings.
-- Manipulação de sistema com `os.system('cls')` para atualização limpa do terminal.
+4. The user types the message, and the program performs the operation based on the selected level.
 
 ---
 
-## 💬 **Exemplo de Uso**
+## 💬 **Technologies Used**
 
-Após iniciar o programa, você verá o menu:
+* **Python 3.x**: Core logic and string processing.
+* System interaction with `os.system('cls')` for clean terminal updates.
+
+---
+
+## 💬 **Usage Example**
+
+After starting the program, you will see the menu:
 
 ```
-* Menu de Opção *
-1- Criptografar
-2- Descriptografar
-3- Sair
+* Option Menu *
+1- Encrypt
+2- Decrypt
+3- Exit
 R: 1
-Selecione o Nivel de Criptografia:
-1- Amadora
-2- Media
-3- Militar
+Select the Encryption Level:
+1- Amateur
+2- Intermediate
+3- Military
 R: 1
-Digite a String que deseja criptografar: Teste
-Mensagem Encriptografada com Sucesso!
-Sua frase encriptografada é "Z$K8GDV7Â...etc"
+Enter the string you want to encrypt: Test
+Message successfully encrypted!
+Your encrypted phrase is "Z$K8GDV7Â...etc"
 ```
 
 ---
 
-## ⚙️ **Suporte para Níveis**
+## ⚙️ **Level Support**
 
-Os níveis alteram a complexidade da criptografia/descriptografia. O usuário seleciona o nível desejado no menu:
+The levels modify the complexity of encryption/decryption. The user selects the desired level from the menu:
 
-1. **Nível 1:** Substituições simples e regras básicas.
-2. **Nível 2:** Substituições mais avançadas.
-3. **Nível 3:** Substituições complexas, simulando níveis de criptografia avançados.
+1. **Level 1:** Simple substitutions and basic rules.
+2. **Level 2:** More advanced substitutions.
+3. **Level 3:** Complex substitutions, simulating advanced encryption levels.
 
 ---
 
-Agora você está pronto para usar e testar este incrível sistema de criptografia/descriptografia! Boa sorte! 🔒✨
+Now you're ready to use and test this amazing encryption/decryption system! Good luck! 🔒✨
